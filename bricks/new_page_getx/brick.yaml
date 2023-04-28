@@ -1,4 +1,4 @@
-name: new_page
+name: new_page_getx
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -25,12 +25,8 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  pagename:
+  name:
     type: string
-    description: new page name
-    prompt: What is the name of your new page?
-  isStateless:
-    type: boolean
-    description: Make a stateless widget
-    default: true
-    prompt: is stateless?
+    description: Your name
+    default: Dash
+    prompt: What is your name?
