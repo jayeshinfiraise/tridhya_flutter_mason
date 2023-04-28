@@ -1,1 +1,3 @@
-class HelloWorld {}
+class HelloWorld {
+  // comment-1
+}
